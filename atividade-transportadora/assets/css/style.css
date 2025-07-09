@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #545454;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+a:link{
+    color: white;
+}
+ 
+a:hover {
+    color: rgb(200, 227, 251);
+}
+nav a{
+    margin-left: 20px;
+}
+#inicio{
+    background-image: url("../images/caminhaoBackground.png");
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: #fff;
+    background-color: #545454;
+    padding: 10px;
+    border-radius: 5px;
+}
+h2{
+    margin: 20px 0 20px 0;
+}
+.caminhao-branco{
+    width: 300px;
+}
+#quem-somos{
+    align-items: center;
+    text-align: center;
+}
+#quem-somos div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#servicos img{
+    width: 300px;
+}
+#servicos a{
+    color: black;
+}
+#servicos div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#servicos{
+    align-items: center;
+    text-align: center;
+}
+#contato{
+    align-items: center;
+    text-align: center;
+}
+#contato div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
